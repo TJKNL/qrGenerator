@@ -6,6 +6,16 @@ import Script from 'next/script';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      {/* Cookiebot */}
+      <Script
+        id="cookiebot-script"
+        strategy="afterInteractive"
+        src="https://consent.cookiebot.com/uc.js"
+        data-cbid="94db5453-67ba-465d-8fb5-7020faf8d21f"
+        type="text/javascript"
+        async
+      />
+
       {/* Google Analytics */}
       <Script
         strategy="afterInteractive"
