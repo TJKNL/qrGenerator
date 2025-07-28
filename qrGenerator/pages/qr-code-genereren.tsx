@@ -5,122 +5,92 @@ export default function QrCodeGenereren() {
   return (
     <>
       <NextSeo
-        title="QR Code Genereren – Gratis & Zonder Watermerk"
-        description="Genereer direct een gratis QR-code voor URL, tekst, Wi-Fi of visitekaartje. Geen registratie, onbeperkt gebruik, 100% gratis."
+        title="QR Code Genereren – Gratis & Snel"
+        description="Genereer gratis en direct een QR-code voor een URL, tekst, wifi-netwerk of vCard. Zonder registratie, ongelimiteerd te gebruiken en 100% gratis."
         canonical="https://qr-code-genereren.nl/qr-code-genereren"
       />
       <FAQPageJsonLd
         mainEntity={[
           {
-            questionName: 'Hoe maak ik gratis een QR-code?',
+            questionName: 'Hoe kan ik een gratis QR-code maken?',
             acceptedAnswerText:
-              'Vul je gegevens in het formulier in. De QR-code wordt automatisch gegenereerd en je kunt hem gratis downloaden als PNG.',
+              'Selecteer het gewenste type (URL, tekst, etc.), vul de benodigde informatie in en download de QR-code direct als PNG-bestand. Het gebruik is volledig gratis.',
           },
           {
-            questionName: 'Moet ik een account aanmaken?',
-            acceptedAnswerText: 'Nee, je kunt ongelimiteerd QR-codes maken zonder account of watermerk.',
+            questionName: 'Is een account nodig om QR-codes te maken?',
+            acceptedAnswerText: 'Nee, een account is niet nodig. U kunt onbeperkt QR-codes genereren zonder enige vorm van registratie of watermerk.',
           },
         ]}
       />
       <main className="min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-br from-indigo-100 via-purple-50 to-white">
         <section className="glass max-w-3xl w-full p-8 shadow-lg">
           <h1 className="text-3xl md:text-5xl font-bold text-center mb-4">
-            QR&nbsp;<span className="text-indigo-600">Code</span>&nbsp;Genereren
+            QR Code Genereren
           </h1>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Welkom bij de snelste en meest gebruiksvriendelijke QR-code generator van Nederland. Met één klik
-            maak je een gratis QR-code voor je website, Wi-Fi-netwerk, contactgegevens of wat je maar wilt.
-            Geen limieten, geen verborgen kosten – gewoon direct downloaden en gebruiken.
+          <p className="text-gray-700 leading-relaxed text-center mb-6">
+            Maak eenvoudig en snel een gratis QR-code voor uw website, wifi-netwerk, contactgegevens of andere informatie. Direct te downloaden en te gebruiken, zonder limieten of verborgen kosten.
           </p>
           <Generator />
 
-          {/* SEO-content met moderne segmentatie */}
           <article className="mt-12 text-gray-700 prose prose-indigo max-w-none">
-            <p>
-              Onze tool is geoptimaliseerd voor razendsnelle prestaties op zowel desktop als mobiel. Dankzij de
-              moderne <strong>glassmorphism</strong> interface en automatische voorbeeldweergave is het maken van
-              een QR-code nog nooit zo eenvoudig geweest. Bovendien respecteren we je privacy: alle gegevens
-              worden uitsluitend in je browser verwerkt.
-            </p>
             <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">
-              Waarom kiezen voor QR-Code-Genereren.nl?
+              Functionaliteiten van onze QR Code Generator
             </h2>
 
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <h3 className="font-semibold mb-1">💰 100% gratis</h3>
-                <p className="m-0">Geen watermerk, geen registratie en onbeperkt gebruik.</p>
+                <h3 className="font-semibold mb-1">Volledig Gratis</h3>
+                <p className="m-0">Genereer onbeperkt QR-codes zonder kosten, watermerk of registratie.</p>
               </div>
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <h3 className="font-semibold mb-1">⚡ Razendsnel</h3>
-                <p className="m-0">Live voorbeeldweergave en download in hoge resolutie.</p>
+                <h3 className="font-semibold mb-1">Direct Resultaat</h3>
+                <p className="m-0">Bekijk een live voorbeeld en download de QR-code in hoge resolutie.</p>
               </div>
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <h3 className="font-semibold mb-1">🔒 Privacy-vriendelijk</h3>
-                <p className="m-0">Alle data wordt uitsluitend lokaal in de browser verwerkt.</p>
+                <h3 className="font-semibold mb-1">Privacygericht</h3>
+                <p className="m-0">Alle data wordt lokaal in uw browser verwerkt en niet opgeslagen.</p>
               </div>
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <h3 className="font-semibold mb-1">🖨️ Drukwerk-proof</h3>
-                <p className="m-0">Scherpe PNG-uitvoer, perfect voor flyers en posters.</p>
+                <h3 className="font-semibold mb-1">Hoge Kwaliteit</h3>
+                <p className="m-0">De PNG-uitvoer is geoptimaliseerd voor drukwerk op flyers en posters.</p>
               </div>
             </div>
-            <p>
-              Wist je dat QR-codes in 2024 een groei van 28% in gebruik zagen binnen Nederland? Van menukaarten tot
-              evenementen-tickets – een scanbare code verhoogt bereik en interactie. Ga vandaag nog aan de slag
-              en ervaar het gemak zelf.
-            </p>
-            <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">Stap-voor-stap QR-code maken</h2>
+            
+            <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">Stapsgewijze Handleiding</h2>
 
-            <ol className="relative border-l-2 border-indigo-200 pl-6 space-y-4">
+            <ol className="list-decimal list-inside mx-auto text-center space-y-2">
               <li>
-                <span className="absolute -left-3 top-0 w-6 h-6 bg-indigo-600 rounded-full"></span>
-                <strong>Kies het type</strong> – URL, Tekst, Wi-Fi of Visitekaartje.
+                <strong>Selecteer het type:</strong> Kies uit URL, Tekst, Wifi of vCard.
               </li>
               <li>
-                <span className="absolute -left-3 top-0 w-6 h-6 bg-indigo-600 rounded-full"></span>
-                <strong>Vul de velden in</strong> – het voorbeeld past zich live aan.
+                <strong>Voer de gegevens in:</strong> Het live voorbeeld wordt direct bijgewerkt.
               </li>
               <li>
-                <span className="absolute -left-3 top-0 w-6 h-6 bg-indigo-600 rounded-full"></span>
-                <strong>Download of kopieer</strong> – klaar voor print of online gebruik.
+                <strong>Download de QR-code:</strong> Klaar voor digitaal gebruik of drukwerk.
               </li>
             </ol>
 
-            <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">Veelgebruikte toepassingen</h2>
+            <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">Toepassingen van QR-Codes</h2>
             <p>
-              QR-codes zijn vandaag de dag overal te vinden. Restaurants gebruiken ze voor menukaarten, winkels voor
-              klantenkaarten en scholen voor snelle toegang tot digitale lesmaterialen. Ook freelancers en
-              zzp'ers profiteren: voeg een QR-code toe aan je factuur of offerte en de klant kan direct betalen of
-              contact opnemen. Door het scannen te vereenvoudigen verlaag je drempels en verhoog je conversie.
+              QR-codes worden veelvuldig ingezet in diverse sectoren. Denk aan menukaarten in de horeca, klantenkaarten in de retail of voor snelle toegang tot lesmateriaal in het onderwijs. Ze verlagen de drempel voor interactie en verhogen de conversie door het scanproces te vereenvoudigen.
             </p>
 
-            <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">Tips voor het beste scan-resultaat</h2>
+            <h2 className="!mt-10 text-2xl font-semibold text-indigo-700 text-center">Tips voor Optimale Scanbaarheid</h2>
 
             <div className="grid md:grid-cols-2 gap-4">
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <strong>Contrast is koning</strong>
-                <p className="m-0">Zwart-op-wit of donker-op-licht biedt de beste scan-betrouwbaarheid.</p>
+                <strong>Zorg voor contrast:</strong> Een donkere code op een lichte achtergrond werkt het best.
               </div>
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <strong>Quiet zone behouden</strong>
-                <p className="m-0">Laat rond de code een lege marge van minstens 4 modules.</p>
+                <strong>Houd een witruimte:</strong> Behoud een marge van minimaal vier modules rondom de code.
               </div>
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <strong>Test op meerdere toestellen</strong>
-                <p className="m-0">Controleer iOS én Android om verrassingen te voorkomen.</p>
+                <strong>Test de code:</strong> Controleer de werking op verschillende apparaten (iOS en Android).
               </div>
               <div className="p-4 border border-indigo-100 rounded-lg bg-white/40 backdrop-blur-sm">
-                <strong>Logo’s met mate</strong>
-                <p className="m-0">Voeg pas een logo toe na grondige test om fout-scans te vermijden.</p>
+                <strong>Wees voorzichtig met logo's:</strong> Test grondig na het toevoegen van een logo om scanproblemen te voorkomen.
               </div>
             </div>
- 
-            <p>
-              Met <strong>QR-Code-Genereren.nl</strong> heb je in minder dan tien seconden een professionele QR-code
-              klaar voor gebruik. Onze generator blijft gratis omdat we geloven in open toegang tot digitale tools.
-              Heb je ideeën of mis je een functionaliteit? Neem contact met ons op en help ons de beste QR-service
-              van Nederland te worden.
-            </p>
            </article>
         </section>
       </main>
